@@ -1,0 +1,63 @@
+/*
+
+Author: kazizamil
+Email: kazizamil63@gmail.com
+File: Main Css File
+*/
+/* @import url("https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*********************************/
+/*          General              */
+/*********************************/
+html {
+  @apply relative scroll-smooth;
+}
+
+body {
+  @apply font-roboto text-[14px] text-dark overflow-x-hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  @apply font-roboto leading-normal font-medium;
+}
+
+a,
+a:hover {
+  @apply outline-none decoration-0;
+}
+
+p {
+  @apply leading-6 font-roboto text-[#666];
+}
+
+::selection {
+  @apply bg-[#97a0af4d];
+}
+
+.opacity {
+  @apply absolute inset-0 group-hover:bg-black/60 transition duration-500 z-0;
+}
+
+.filter-options li a {
+  @apply block text-dark text-[13px] py-[7px] px-3 uppercase cursor-pointer tracking-[1px] leading-3 rounded-md;
+}
+
+.filter-options li.active a,
+.filter-options li:active a,
+.filter-options li:focus a {
+  @apply bg-primary text-white;
+}
