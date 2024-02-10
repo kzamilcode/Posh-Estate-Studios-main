@@ -1855,3 +1855,21 @@ p {
 .logo-img {
   width: 90px;
 }
+.book__appointment .book__img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.book__data {
+  padding: 150px 200px;
+  text-align: center;
+}
+.book__data h2 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
