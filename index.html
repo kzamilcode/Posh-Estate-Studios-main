@@ -32,9 +32,15 @@
 
                     <div class="flex items-center gap-2">
                         <button
-                            class="hs-collapse-toggle lg:hidden inline-block px-3 bg-transparent border border-muted rounded-md"
+                            class="hs-collapse-toggle lg:hidden inline-block bg-transparent border border-muted rounded-md"
                             id="hs-unstyled-collapse" data-hs-collapse="#mobileMenu" data-hs-type="collapse">
-                            <i class="mdi mdi-menu text-2xl text-gray-600 hover:text-gray-900"></i>
+                            <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1"
+                                viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path
+                                    d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" />
+                            </svg>
+
                         </button>
                     </div>
                 </div>
@@ -79,7 +85,8 @@
                 <div class="flex justify-center mt-6">
                     <div class="max-w-5xl text-2xl">
 
-                        <h1 class="text-4xl mb-3 text-white font-bold leading-normal tracking-wider">Posh Estate Studios
+                        <h1 class="text-[42px] mb-3 text-white font-bold leading-normal tracking-wider">Posh
+                            Estate Studios
                             is a <span class="font-bold border-b-2 border-white">United States-based
                                 company,</span> specialization in real estate photography services.</h1>
                     </div>
@@ -521,9 +528,10 @@
         <div class="container relative">
             <div class="book__appointment relative bg-white shadow p-12 rounded-md">
                 <div class="book__img" style="background-image: url(assets/images/r-12.jpeg);">
-                    <div class="book__data sec-animation">
+                    <div
+                        class="book__data text-[60px] font-bold text-white leading-normal sec-animation lg:px-[200px] lg:py-[150px] text-center">
                         <h2>Make your appointment with our specialist</h2>
-                        <div class="text-center mt-7">
+                        <div class="text-center leading-10">
                             <a class="inline-flex items-center justify-center px-7 py-4 bg-[#4a4949] hover:bg-[#23272b] tracking-[2px] text-white rounded-full transition-all duration-500 uppercase font-medium text-xs"
                                 href="#">BOOK A SESSION</a>
                         </div>
@@ -713,7 +721,7 @@
     <script src="assets/libs/shufflejs/shuffle.min.js"></script>
 
     <script src="assets/js/filter.init.js"></script>
-
+    <script src="assets/libs/preline/preline.js"></script>
     <!-- Main App Js -->
     <script src="assets/js/app.js"></script>
 </body>
