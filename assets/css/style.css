@@ -4,7 +4,7 @@ Author: kazizamil
 Email: kazizamil63@gmail.com
 File: Main Css File
 */
-/* @import url("https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css"); */
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 @tailwind base;
 @tailwind components;
