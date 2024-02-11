@@ -1079,7 +1079,7 @@ svg {
   --tw-bg-opacity: 0.5 !important;
 }
 .bg-\[url\(\.\.\/images\/bg-1\.jpg\)\] {
-  background-image: url(../images/home1.jpeg) !important;
+  background-image: url(../images/professional-real-estate-photography.jpg) !important;
 }
 .bg-cover {
   background-size: cover !important;
@@ -1872,4 +1872,18 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+}
+.text-gradient {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(44, 170, 228, 1) 11.2%,
+    rgba(44, 170, 228, 1) 92.5%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  filter: brightness(1.85);
+  font-size: 50px;
 }
